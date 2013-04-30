@@ -70,7 +70,7 @@ namespace vault
                 j = (j + sbox[i]) % 256;
                 std::swap(sbox[i], sbox[j]);
                 k = sbox[(sbox[i] + sbox[j]) % 256];
-                output[a] = text.at(a) ^ k;
+                output[a] = text[a] ^ k;
             }
 
             return output;
