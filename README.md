@@ -8,9 +8,9 @@ vault
 
 sample
 ------
-<pre>
-#include &lt;iostream&gt;
-#include &lt;string&gt;
+```c++
+#include <iostream>
+#include <string>
 
 #include "vault.hpp"
 
@@ -19,9 +19,9 @@ int main( int argc, const char **argv )
     std::string encrypted = vault::ARC4( "Hello world.", "my-password" );
     std::string decrypted = vault::ARC4( encrypted, "my-password" );
 
-    std::cout &lt;&lt; "ARC4 Encrypted text: " &lt;&lt; encrypted &lt;&lt; std::endl;
-    std::cout &lt;&lt; "ARC4 Decrypted text: " &lt;&lt; decrypted &lt;&lt; std::endl;
+    std::cout << "ARC4 Encrypted text: " << encrypted << std::endl;
+    std::cout << "ARC4 Decrypted text: " << decrypted << std::endl;
 
     return 0;
 }
-</pre>
+```
