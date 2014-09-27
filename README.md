@@ -4,7 +4,7 @@ vault
 - Vault is a lightweight and simple C++ crypt library.
 - Vault provides interface for ARC4.
 - No dependencies.
-- MIT licensed.
+- BOOST licensed.
 
 sample
 ------
