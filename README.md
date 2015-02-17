@@ -1,4 +1,4 @@
-vault
+vault <a href="https://travis-ci.org/r-lyeh/vault"><img src="https://api.travis-ci.org/r-lyeh/vault.svg?branch=master" align="right" /></a>
 =====
 
 - Vault is a lightweight and simple C++ crypt library.
