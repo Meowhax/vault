@@ -3,8 +3,8 @@ vault <a href="https://travis-ci.org/r-lyeh/vault"><img src="https://api.travis-
 
 - Vault is a lightweight and simple C++ crypt library.
 - Vault provides interface for ARC4.
-- No dependencies.
-- BOOST licensed.
+- Vault has no dependencies.
+- Vault is zlib/libpng licensed.
 
 sample
 ------

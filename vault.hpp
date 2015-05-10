@@ -1,4 +1,4 @@
-/* Vault is a lightweight and simple crypt library. No dependencies. BOOST licensed.
+/* Vault is a lightweight and simple crypt library. No dependencies. zlib/libpng licensed.
  * - rlyeh
  */
 
